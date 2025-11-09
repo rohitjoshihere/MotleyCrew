@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import gsap from "gsap";
 
 const order = [0, 1, 2, 3, 7, 11, 15, 14, 13, 12, 8, 4, 5, 6, 10, 9];
-const SPEED = 150;
+const SPEED = 100;
 
 const PreLoader = () => {
   const [showIntro, setShowIntro] = useState(false);
